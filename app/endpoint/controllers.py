@@ -58,8 +58,7 @@ def api():
 
         context = {"context": request_json["context"]}
 
-        if app.config["DEFAULT_WELCOME_INTENT_NAME"] in request_json.get(
-                "input"):
+        if app.config["DEFAULT_WELCOME_INTENT_NAME"] in request_json.get("input"):
             intent = Intent.objects(
                 intentId=app.config["DEFAULT_WELCOME_INTENT_NAME"]).first()
             result_json["complete"] = True

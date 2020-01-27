@@ -10,9 +10,9 @@ mongoengine==0.15.0
 flask-mongoengine
 nltk==3.2.5
 # scipy==0.19.1
-scipy
-# numpy==1.13.3
-numpy
+scipy==1.2.2
+numpy==1.18.0
+# numpy
 # pandas==0.21.1
 panda
 parsedatetime==2.4

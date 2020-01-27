@@ -128,3 +128,9 @@ mongorestore --drop --db=iky-ai --dir=/Users/neo1/PycharmProjects/cha-f-w/dump/i
 # if error of restore 'dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib'
 brew uninstall vapor
 brew install vapor/tap/vapor
+
+# for dev
+run.py --> 8080
+
+in frontend/src/environments/environment.ts
+ikyBackend: "http://localhost:8080/"
