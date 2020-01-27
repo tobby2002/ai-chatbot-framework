@@ -1,0 +1,53 @@
+# bs4==0.0.1
+bs4
+# Flask==0.12.2
+Flask
+# Flask-Cors==3.0.3
+Flask-Cors
+# html2text==2017.10.4
+html2text
+# httplib2==0.10.3
+httplib2
+# ipaddress==1.0.19
+ipaddress
+# Jinja2==2.10
+Jinja2
+# JSON-log-formatter==0.2.0
+JSON-log-formatter
+# mongoengine==0.15.0
+mongoengine
+flask-mongoengine
+# nltk==3.2.5
+nltk
+# scipy==0.19.1
+scipy
+# numpy==1.13.3
+numpy
+# pandas==0.21.1
+panda
+parsedatetime==2.4
+# python-crfsuite==0.9.5
+python-crfsuite
+
+# python-dateutil==2.6.1
+python-dateutil
+
+# requests==2.18.4
+requests
+
+# scikit-learn==0.19.1
+scikit-learn
+# simplejson==3.13.2
+simplejson
+
+# Werkzeug==0.13
+Werkzeug
+gunicorn
+gevent
+pytest
+cloudpickle
+flask_script
+blinker
+h5py
+spacy
+tensorflow

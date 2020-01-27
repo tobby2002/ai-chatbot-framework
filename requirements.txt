@@ -9,9 +9,12 @@ JSON-log-formatter==0.2.0
 mongoengine==0.15.0
 flask-mongoengine
 nltk==3.2.5
-scipy==0.19.1
-numpy==1.13.3
-pandas==0.21.1
+# scipy==0.19.1
+scipy
+# numpy==1.13.3
+numpy
+# pandas==0.21.1
+panda
 parsedatetime==2.4
 python-crfsuite==0.9.5
 python-dateutil==2.6.1

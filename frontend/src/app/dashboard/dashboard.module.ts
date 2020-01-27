@@ -10,8 +10,7 @@ import {RouterModule } from '@angular/router';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { MatToolbarModule, MatIconModule,
-   MatListModule,MatSidenavModule, MatFormFieldModule
-   
+   MatListModule, MatSidenavModule, MatFormFieldModule
 } from '@angular/material';
 
 
@@ -22,7 +21,7 @@ import { MatToolbarModule, MatIconModule,
     CommonModule,
     RouterModule,
     MatToolbarModule,
-    MatIconModule, 
+    MatIconModule,
     MatListModule,
     MatSidenavModule,
     MatFormFieldModule

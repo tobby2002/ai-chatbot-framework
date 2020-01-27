@@ -1,5 +1,5 @@
 {
-  "name": "IKY - AI chatbot framework",
+  "name": "AI chatbot framework",
   "description": "A python chatbot framework with Natural Language Understanding and Artificial Intelligence.",
   "logo": "https://raw.githubusercontent.com/alfredfrancis/ai-chatbot-framework/master/app/static/images/iky.png",
   "image": "heroku/python",

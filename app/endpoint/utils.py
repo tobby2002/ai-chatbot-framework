@@ -17,12 +17,14 @@ def get_synonyms():
     :return:
     """
     synonyms = {}
-
-    for entity in Entity.objects:
-        for value in entity.entity_values:
-            for synonym in value.synonyms:
-                synonyms[synonym] = value.value
-    app.logger.info("loaded synonyms %s", synonyms)
+    try:
+        for entity in Entity.objects:
+            for value in entity.entity_values:
+                for synonym in value.synonyms:
+                    synonyms[synonym] = value.value
+        app.logger.info("loaded synonyms %s", synonyms)
+    except Exception as e:
+        print('e in get_synonyms:', e)
     return synonyms
 
 

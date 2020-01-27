@@ -121,3 +121,10 @@ Please visit my [website](http://alfredfrancis.github.io) to see my personal cha
 <hr></hr>
 
 _Made with :heart: at God's Own Country_.
+
+
+mongorestore --drop --db=iky-ai --dir=/Users/neo1/PycharmProjects/cha-f-w/dump/iky-ai/
+
+# if error of restore 'dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib'
+brew uninstall vapor
+brew install vapor/tap/vapor

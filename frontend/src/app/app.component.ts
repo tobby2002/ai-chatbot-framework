@@ -15,7 +15,7 @@ export class AppComponent  implements OnInit {
 }
 ngOnInit() {
   this.coreService.status.subscribe((val: boolean) => {
-    console.log("value changed")
+    console.log('value changed');
       this.showLoader = val;
   });
 }
